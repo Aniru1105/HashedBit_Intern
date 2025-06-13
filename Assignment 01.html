@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio{Demo}</title>
+
+    <!-- Font Awesome CDN for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #020024;
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 48%, rgba(255, 115, 192, 1) 100%);
+            color: #fff9ec;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: rgba(0, 14, 16, 0.8);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: white;
+        }
+
+        .social-links a {
+            color: white;
+            margin-left: 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        .social-links i {
+            margin-right: 8px;
+        }
+
+        nav {
+            background-color: rgba(0, 53, 77, 0.8);
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #9bffff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            display: flex;
+            flex: 1;
+        }
+
+        aside {
+            width: 20%;
+            background-color: rgba(0, 38, 62, 0.8);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        aside h3 {
+            margin-top: 0;
+        }
+
+        main {
+            width: 80%;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            box-sizing: border-box;
+        }
+
+        .box {
+            background-color: rgba(0, 76, 112, 0.8);
+            width: 30%;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #000;
+            color: white;
+            text-align: center;
+        }
+
+        .box img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        footer {
+            background-color: #00ced1;
+            text-align: center;
+            padding: 10px;
+            color: black;
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            aside, main {
+                width: 100%;
+            }
+
+            .box {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Anirudh's Web : Demo Portfolio</div>
+        <div class="social-links">
+            <a href="https://github.com/Aniru1105" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+            <a href="https://linkedin.com/in/anirudh1105" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+            <a href="mailto:aniru.the.mint@gmail.com"><i class="fas fa-envelope"></i>Email</a>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <aside>
+            <h3>Overview</h3>
+            <p>Welcome to my website! Here you can explore my latest works, services, and contact details.</p>
+            <p>Skills & Tools I work with: Python, JavaScript, HTML, CSS, SQL, Data Analytics, Visualization, MS Office, Oracle VirtualBox and more.</p>
+        </aside>
+
+        <main>
+            <div class="box">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.7642vGNCDB_I_69t5BBtIwHaE8&pid=Api&P=0&h=180" alt="Web Design">
+                <h3>Web Design</h3>
+                <p>I create responsive websites using HTML.</p>
+            </div>
+
+            <div class="box">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.IDMqSgZq2ANZWJ_TnxpNXwHaHa&pid=Api&P=0&h=180" alt="Data Projects">
+                <h3>Data Projects</h3>
+                <p>Analyze real-world data to uncover insights using Python and SQL. All projects are on my GitHub.</p>
+            </div>
+
+            <div class="box">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.R8gESTVV6vQ_-YbV6wF_0gHaHa&pid=Api&P=0&h=180" alt="Freelancing">
+                <h3>Freelance Services</h3>
+                <p>Open for freelance work — web development, automation, dashboards and more.</p>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Anirudh Sharma - All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
