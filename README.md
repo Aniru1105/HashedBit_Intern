@@ -16,7 +16,7 @@ Each assignment is stored in its own folder or markdown file within this reposit
 
 | No. | Assignment Title        | Link to Assignment | Description                            |
 |-----|--------------------------|--------------------|----------------------------------------|
-| 1   | Basic HTML Portfolio     | [Open](#)          | Simple portfolio using pure HTML & CSS |
+| 1   | Basic HTML Portfolio     | [Assignment 01 ](https://github.com/Aniru1105/HashedBit_Intern/blob/main/Assignment%2001.html)          | Simple portfolio using pure HTML & CSS |
 | 2   | Responsive Navigation Bar| [Open](#)          | Navbar that adapts to screen sizes     |
 | 3   | Image Slider             | [Open](#)          | JavaScript-based interactive image slider |
 | 4   | Calculator App           | [Open](#)          | Functional calculator using JS         |
